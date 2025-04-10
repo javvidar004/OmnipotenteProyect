@@ -6,10 +6,10 @@ services:
     container_name: DB_OmnipotenteProyect
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD:
-      MYSQL_DATABASE:
-      MYSQL_USER:
-      MYSQL_PASSWORD:
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_DATABASE: BDLOCAL
+      MYSQL_USER: bruno
+      MYSQL_PASSWORD: pass
     ports:
       - "3306:3306"
     volumes:
@@ -26,17 +26,21 @@ services:
     env_file: .env
     ports:
       - "5000:5000"
+    volumes:
+      - ./Backend:/app
     depends_on:
       - mysql
     networks:
       - my_network
-
+    command: uvicorn main:app --host 0.0.0.0 --port 5000 --reload
   frontend:
     build: ./Frontend
     container_name: frontend_OmnipotenteProyect
     restart: always
     ports:
       - "3000:80"
+    volumes:
+      - ./Frontend:/usr/share/nginx/html
     depends_on:
       - backend
     networks:
