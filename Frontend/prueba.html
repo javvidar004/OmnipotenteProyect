@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi App</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+
+<body>
+    <h1>Adios</h1>
+    <button hx-get="http://localhost:8000/" hx-target="#usuarios">
+        Cargar Usuarios
+    </button>
+    <ul id="usuarios"></ul>
+
+    <!-- eeee -->
+    <h1>Lista de Usuarios</h1>
+    <button hx-get="http://localhost:8000/" hx-target="#lista">
+        Cargar Usuarios
+    </button>
+
+    <div id="lista">
+        <!-- Los usuarios aparecerán aquí -->
+    </div>
+
+    <script>
+        // Configura HTMX para manejar la respuesta JSON
+        htmx.on("htmx:afterRequest", function (evt) {
+            if (evt.detail.path === "/geojson/secciones") {
+                const container = document.getElementById("lista");
+                const users = JSON.parse(evt.detail.xhr.responseText);
+
+                // Si la respuesta es {"message": "..."}
+                const response = JSON.parse(evt.detail.xhr.responseText);
+                container.innerHTML = `
+                        <div class="message">
+                            ${response.message}
+                        </div>
+                    `;
+
+                /*container.innerHTML = users.map(user => 
+                      `
+                          <div class="user-item">
+                              <strong>ID:</strong> ${user.message}<br>
+                              <strong>Nombre:</strong> ${user.message}
+                          </div>
+                      `).join("");*/
+            }
+        });
+    </script>
+</body>
+
+</html>-->

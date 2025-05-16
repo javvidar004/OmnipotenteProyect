@@ -1,53 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi App</title>
-    <script src="https://unpkg.com/htmx.org"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa con Offcanvas</title>
+  <!-- Enlace a la hoja de estilos de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Enlace a la hoja de estilos de Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 100vh;
+    }
+
+    .offcanvas-header {
+      background-color: #343a40;
+      color: white;
+      border-top-left-radius: 15px;
+    }
+
+    .offcanvas {
+      height: 83vh;
+      margin: 50px;
+      border-radius: 15px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Adios</h1>
-    <button hx-get="http://localhost:8000/" hx-target="#usuarios">Cargar Usuarios</button>
-    <ul id="usuarios">
 
-    </ul>
+  <div id="map"></div>
 
-    <!-- eeee -->
-    <h1>Lista de Usuarios</h1>
-    <button hx-get="http://localhost:8000/" hx-target="#lista">
-        Cargar Usuarios
-    </button>
-    
-    <div id="lista">
-        <!-- Los usuarios aparecerán aquí -->
+  <!-- Offcanvas de Bootstrap (desliza desde arriba) -->
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasLabel">Reporte</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
+    <div class="offcanvas-body">
+      <form action="http://127.0.0.1:8000/reportes" method="POST" enctype="application/x-www-form-urlencoded">
 
-    <script>
-        // Configura HTMX para manejar la respuesta JSON
-        htmx.on("htmx:afterRequest", function(evt) {
-            if(evt.detail.path === "/") {
-                const container = document.getElementById("lista");
-                const users = JSON.parse(evt.detail.xhr.responseText);
-                
-                // Si la respuesta es {"message": "..."}
-                    const response = JSON.parse(evt.detail.xhr.responseText);
-                    container.innerHTML = `
-                        <div class="message">
-                            ${response.message}
-                        </div>
-                    `;
-                
-                
-                /*container.innerHTML = users.map(user => 
-                `
-                    <div class="user-item">
-                        <strong>ID:</strong> ${user.message}<br>
-                        <strong>Nombre:</strong> ${user.message}
-                    </div>
-                `).join("");*/
+        <!-- Campo de calle -->
+        <div class="mb-3">
+          <label for="sectionId" id="sectionIdLbl" class="form-label" style="font-size: 20px;">Calle:</label>
+          <input type="hidden" class="form-control" id="sectionId" name="id_seccion" readonly>
+        </div>
+
+        <!-- Campo de hora -->
+        <div class="mb-3">
+          <label for="fechaHora" class="form-label">Fecha y hora del suceso:</label>
+          <input type="datetime-local" class="form-control" id="fechaHora" name="fecha">
+        </div>
+
+        <!-- Campo de tipo de reporte-->
+        <div class="mb-3">
+          <label for="tipoReporte" class="form-label">Seleccione el tipo de reporte:</label>
+          <select class="form-select form-select-lg mb-3" id="tipoReporte" name="tipo">
+            <option selected>Seleccione el tipo de reporte</option>
+            <!-- 'Asalto','Secuestro','Extorsion','riña'-->
+            <option value="1">Asalto</option>
+            <option value="2">Secuestro</option>
+            <option value="3">Extorsion</option>
+            <option value="4">Riña</option>
+          </select>
+        </div>
+
+
+        <div class="mb-3">
+          <label for="reporteDetalles" class="form-label">Agregar Detalles:</label>
+          <textarea class="form-control" id="reporteDetalles" rows="3" value="a" name="reporte"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts de Bootstrap y Leaflet -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script>
+    const map = L.map("map").setView([19.375, -99.186], 16);
+
+
+    //para verion final: rastertiles/voyager
+    //para trabajar: dark_all/
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors & CartoDB',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    // api
+    fetch("http://127.0.0.1:8000/geojson/secciones/especiales")
+      .then((response) => response.json())
+      .then((data) => {
+        L.geoJSON(data, {
+          style: (feature) => {
+            const reportes = feature.properties.reportes || 0;
+            let color;
+
+            if (reportes === 0) {
+              color = "#CCCCCC"; // gris claro
+            } else if (reportes < 2) {
+              color = "#EFB103"; // amarillo
+            } else if (reportes < 3) {
+              color = "#EF7003"; // naranja
+            } else {
+              color = "#FF0000"; // rojo
             }
-        });
-    </script>
+
+            feature.properties.color = color;
+
+            return {
+              color: color,
+              weight: 5,
+              opacity: 0.8
+            };
+          },
+
+          onEachFeature: (feature, layer) => {
+            const sectionId = feature.properties.id || "Sin ID";
+            const sectionName = feature.properties.name || "Sin Nombre";
+            const sectionRep = feature.properties.reportes || 0;
+            const color = feature.properties.color;
+
+            const button = document.createElement("button");
+            button.innerText = "Generar reporte";
+            button.className = "btn btn-warning";
+
+            button.onclick = () => {
+              const offcanvas = new bootstrap.Offcanvas(document.getElementById("offcanvas"));
+              document.getElementById("sectionId").value = sectionId;
+              document.getElementById("sectionIdLbl").textContent = sectionName;
+              offcanvas.show();
+            };
+
+            // Agregar el botón al popup
+            const popupContent = document.createElement("div");
+            popupContent.innerHTML = `<strong>${sectionName}</strong><br>Reportes: ${sectionRep}<br>`;
+            popupContent.appendChild(button);
+            layer.bindPopup(popupContent);
+
+            layer.once("add", () => {
+              const el = layer.getElement();
+              if (el) {
+                el.style.filter = `drop-shadow(0 0 5px ${color})`;
+              }
+            });
+          }
+        }).addTo(map);
+      });
+
+
+
+
+  </script>
+
 </body>
+
 </html>

@@ -1,0 +1,5377 @@
+{
+    "type": "FeatureCollection",
+    "name": "03920",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 30381321,
+                "v": 1397756619,
+                "key": 0,
+                "osmid": "871461736",
+                "highway": "primary",
+                "lanes": "3",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 15.987268282130014,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1861739,
+                        19.3715627
+                    ],
+                    [
+                        -99.1863212,
+                        19.3715996
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 30381321,
+                "v": 1397756624,
+                "key": 0,
+                "osmid": "25308347",
+                "highway": "primary",
+                "lanes": "3",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 156.32255288087345,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1861739,
+                        19.3715627
+                    ],
+                    [
+                        -99.1863746,
+                        19.3717042
+                    ],
+                    [
+                        -99.1864887,
+                        19.3717907
+                    ],
+                    [
+                        -99.1865739,
+                        19.3718592
+                    ],
+                    [
+                        -99.1866343,
+                        19.3719123
+                    ],
+                    [
+                        -99.1866826,
+                        19.3719642
+                    ],
+                    [
+                        -99.1867134,
+                        19.3720072
+                    ],
+                    [
+                        -99.1867487,
+                        19.3720648
+                    ],
+                    [
+                        -99.1868702,
+                        19.3722793
+                    ],
+                    [
+                        -99.1869534,
+                        19.3724662
+                    ],
+                    [
+                        -99.1869925,
+                        19.372562
+                    ],
+                    [
+                        -99.1870196,
+                        19.372626
+                    ],
+                    [
+                        -99.1870371,
+                        19.3726656
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 30381324,
+                "v": 12758660868,
+                "key": 0,
+                "osmid": [
+                    125742033,
+                    820355198
+                ],
+                "highway": "primary",
+                "lanes": [
+                    "4",
+                    "5"
+                ],
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 118.73651095921548,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.187167,
+                        19.3731227
+                    ],
+                    [
+                        -99.1870994,
+                        19.374074
+                    ],
+                    [
+                        -99.1870971,
+                        19.3741062
+                    ],
+                    [
+                        -99.1870975,
+                        19.3741706
+                    ],
+                    [
+                        -99.1870968,
+                        19.3741883
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 30381328,
+                "v": 276059721,
+                "key": 0,
+                "osmid": "25335863",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Donatello",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 119.71547000550885,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1869016,
+                        19.3752613
+                    ],
+                    [
+                        -99.1867624,
+                        19.3752238
+                    ],
+                    [
+                        -99.1858375,
+                        19.3749754
+                    ],
+                    [
+                        -99.1858039,
+                        19.3749667
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 30381328,
+                "v": 434303477,
+                "key": 0,
+                "osmid": "820355198",
+                "highway": "primary",
+                "lanes": "4",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 51.616923759743266,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1869016,
+                        19.3752613
+                    ],
+                    [
+                        -99.1868504,
+                        19.3754299
+                    ],
+                    [
+                        -99.186798,
+                        19.3755882
+                    ],
+                    [
+                        -99.1867651,
+                        19.3757072
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 275417985,
+                "v": 276057088,
+                "key": 0,
+                "osmid": [
+                    555850225,
+                    1153004107
+                ],
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 168.12854723625478,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1797463,
+                        19.3716283
+                    ],
+                    [
+                        -99.1797627,
+                        19.3715759
+                    ],
+                    [
+                        -99.1798629,
+                        19.3712565
+                    ],
+                    [
+                        -99.1800766,
+                        19.370575
+                    ],
+                    [
+                        -99.1801867,
+                        19.3702413
+                    ],
+                    [
+                        -99.1802069,
+                        19.3701801
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 275417986,
+                "v": 276058623,
+                "key": 0,
+                "osmid": "25335798",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 179.64593802523149,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1790486,
+                        19.3737387
+                    ],
+                    [
+                        -99.179132,
+                        19.3737347
+                    ],
+                    [
+                        -99.1791543,
+                        19.3737313
+                    ],
+                    [
+                        -99.179198,
+                        19.3737167
+                    ],
+                    [
+                        -99.1792733,
+                        19.3736636
+                    ],
+                    [
+                        -99.1804712,
+                        19.3728662
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 275417986,
+                "v": 276059473,
+                "key": 0,
+                "osmid": "555850448",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": false,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 170.06902384252496,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1790486,
+                        19.3737387
+                    ],
+                    [
+                        -99.179125,
+                        19.3737568
+                    ],
+                    [
+                        -99.1792127,
+                        19.3737776
+                    ],
+                    [
+                        -99.1793241,
+                        19.373804
+                    ],
+                    [
+                        -99.1795371,
+                        19.3738525
+                    ],
+                    [
+                        -99.180622,
+                        19.3741076
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 275417986,
+                "v": 276059458,
+                "key": 0,
+                "osmid": "941873736",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 146.60781879196844,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1790486,
+                        19.3737387
+                    ],
+                    [
+                        -99.1790891,
+                        19.3736138
+                    ],
+                    [
+                        -99.1794602,
+                        19.3724787
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276056967,
+                "v": 30381324,
+                "key": 0,
+                "osmid": "24723333",
+                "highway": "primary",
+                "lanes": "7",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 37.776009998388943,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1871882,
+                        19.3727837
+                    ],
+                    [
+                        -99.1871839,
+                        19.3729205
+                    ],
+                    [
+                        -99.1871829,
+                        19.3729506
+                    ],
+                    [
+                        -99.187167,
+                        19.3731227
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057088,
+                "v": 276057698,
+                "key": 0,
+                "osmid": "37274500",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Actipan",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 76.433799601345271,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1802069,
+                        19.3701801
+                    ],
+                    [
+                        -99.1802735,
+                        19.3702039
+                    ],
+                    [
+                        -99.1808882,
+                        19.3704238
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057088,
+                "v": 276057371,
+                "key": 0,
+                "osmid": "569079941",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 124.80121789686291,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1802069,
+                        19.3701801
+                    ],
+                    [
+                        -99.1802261,
+                        19.3701212
+                    ],
+                    [
+                        -99.1804205,
+                        19.3695252
+                    ],
+                    [
+                        -99.1805626,
+                        19.3691091
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057181,
+                "v": 276057182,
+                "key": 0,
+                "osmid": "25335589",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Galicia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 75.766576226135385,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1831822,
+                        19.3704984
+                    ],
+                    [
+                        -99.1835159,
+                        19.3698941
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057181,
+                "v": 276057966,
+                "key": 0,
+                "osmid": "25335606",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Asturias",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 125.39392910760056,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1831822,
+                        19.3704984
+                    ],
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057182,
+                "v": 6298545890,
+                "key": 0,
+                "osmid": "29684553",
+                "highway": "secondary",
+                "lanes": "2",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 24.080749610275365,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1835159,
+                        19.3698941
+                    ],
+                    [
+                        -99.1837205,
+                        19.3699923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057371,
+                "v": 276446403,
+                "key": 0,
+                "osmid": [
+                    1153004108,
+                    569079941
+                ],
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 110.22743528288092,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1805626,
+                        19.3691091
+                    ],
+                    [
+                        -99.1807299,
+                        19.3685853
+                    ],
+                    [
+                        -99.1808363,
+                        19.3682641
+                    ],
+                    [
+                        -99.1808704,
+                        19.3681613
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057394,
+                "v": 276057697,
+                "key": 0,
+                "osmid": "25335625",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Murcia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 86.045398488828226,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1818835,
+                        19.3688222
+                    ],
+                    [
+                        -99.1814614,
+                        19.3694857
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057394,
+                "v": 1171930019,
+                "key": 0,
+                "osmid": "37273822",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 73.578489929451237,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1818835,
+                        19.3688222
+                    ],
+                    [
+                        -99.1822636,
+                        19.3690913
+                    ],
+                    [
+                        -99.1824459,
+                        19.3692176
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057697,
+                "v": 276057698,
+                "key": 0,
+                "osmid": "25335625",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Murcia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 120.40161220710957,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1814614,
+                        19.3694857
+                    ],
+                    [
+                        -99.1808882,
+                        19.3704238
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057697,
+                "v": 276057371,
+                "key": 0,
+                "osmid": "25335606",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Asturias",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 103.16663536675756,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1814614,
+                        19.3694857
+                    ],
+                    [
+                        -99.180621,
+                        19.3691336
+                    ],
+                    [
+                        -99.1805626,
+                        19.3691091
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057698,
+                "v": 276058641,
+                "key": 0,
+                "osmid": "37274500",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Actipan",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 33.153822136494782,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1808882,
+                        19.3704238
+                    ],
+                    [
+                        -99.1811834,
+                        19.3705303
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057966,
+                "v": 276057697,
+                "key": 0,
+                "osmid": "25335606",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Asturias",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 87.363401491139072,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ],
+                    [
+                        -99.1814614,
+                        19.3694857
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057966,
+                "v": 1171930019,
+                "key": 0,
+                "osmid": "25335662",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cataluña",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 81.583031464226295,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ],
+                    [
+                        -99.1824459,
+                        19.3692176
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057966,
+                "v": 276057967,
+                "key": 0,
+                "osmid": "360424381",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cataluña",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 70.125087404345848,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ],
+                    [
+                        -99.1819768,
+                        19.3705071
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276057967,
+                "v": 276057966,
+                "key": 0,
+                "osmid": "360424381",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cataluña",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 70.125087404345848,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1819768,
+                        19.3705071
+                    ],
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058578,
+                "v": 4610800069,
+                "key": 0,
+                "osmid": [
+                    25335776,
+                    865401080
+                ],
+                "highway": [
+                    "living_street",
+                    "residential"
+                ],
+                "lanes": null,
+                "name": "Calle Augusto Rodin",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 103.31487567762349,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ],
+                    [
+                        -99.1841533,
+                        19.3730741
+                    ],
+                    [
+                        -99.1841589,
+                        19.3731504
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058578,
+                "v": 1496079468,
+                "key": 0,
+                "osmid": "29020563",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Campana",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 200.31147488990911,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ],
+                    [
+                        -99.1839678,
+                        19.372072
+                    ],
+                    [
+                        -99.1838547,
+                        19.3720256
+                    ],
+                    [
+                        -99.1836296,
+                        19.3718608
+                    ],
+                    [
+                        -99.1835651,
+                        19.3717968
+                    ],
+                    [
+                        -99.1833497,
+                        19.3715552
+                    ],
+                    [
+                        -99.1830177,
+                        19.3712326
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058578,
+                "v": 11733607117,
+                "key": 0,
+                "osmid": "29020563",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Campana",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 21.152728566973067,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ],
+                    [
+                        -99.1847027,
+                        19.3723204
+                    ],
+                    [
+                        -99.1847154,
+                        19.3723227
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058597,
+                "v": 276059933,
+                "key": 0,
+                "osmid": "25337129",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 160.79405655671894,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1830684,
+                        19.3746922
+                    ],
+                    [
+                        -99.1832393,
+                        19.3747397
+                    ],
+                    [
+                        -99.1845401,
+                        19.3750966
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058597,
+                "v": 276073866,
+                "key": 0,
+                "osmid": "28920855",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Augusto Rodin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 67.231770827409377,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1830684,
+                        19.3746922
+                    ],
+                    [
+                        -99.1830026,
+                        19.3747564
+                    ],
+                    [
+                        -99.1829614,
+                        19.3748307
+                    ],
+                    [
+                        -99.1828505,
+                        19.3752493
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058622,
+                "v": 276058627,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 15.272372041776578,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1805931,
+                        19.372931
+                    ],
+                    [
+                        -99.1806287,
+                        19.3729237
+                    ],
+                    [
+                        -99.1806606,
+                        19.3729072
+                    ],
+                    [
+                        -99.1806862,
+                        19.3728828
+                    ],
+                    [
+                        -99.1807035,
+                        19.3728526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058622,
+                "v": 276059473,
+                "key": 0,
+                "osmid": "186845017",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Cádiz Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 132.06822572657049,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1805931,
+                        19.372931
+                    ],
+                    [
+                        -99.1806228,
+                        19.3731092
+                    ],
+                    [
+                        -99.180645,
+                        19.3732427
+                    ],
+                    [
+                        -99.1806631,
+                        19.3733477
+                    ],
+                    [
+                        -99.1806765,
+                        19.3734533
+                    ],
+                    [
+                        -99.1806845,
+                        19.3735494
+                    ],
+                    [
+                        -99.1806883,
+                        19.3735974
+                    ],
+                    [
+                        -99.1806886,
+                        19.3736456
+                    ],
+                    [
+                        -99.1806827,
+                        19.3737164
+                    ],
+                    [
+                        -99.1806695,
+                        19.3737863
+                    ],
+                    [
+                        -99.1806331,
+                        19.3739832
+                    ],
+                    [
+                        -99.180622,
+                        19.3741076
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058623,
+                "v": 276058622,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 15.492067626386806,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1804712,
+                        19.3728662
+                    ],
+                    [
+                        -99.1804926,
+                        19.3728945
+                    ],
+                    [
+                        -99.1805218,
+                        19.3729159
+                    ],
+                    [
+                        -99.1805563,
+                        19.3729284
+                    ],
+                    [
+                        -99.1805931,
+                        19.372931
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058624,
+                "v": 276058623,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 12.236171480402213,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1804696,
+                        19.3727596
+                    ],
+                    [
+                        -99.1804584,
+                        19.3727947
+                    ],
+                    [
+                        -99.1804589,
+                        19.3728314
+                    ],
+                    [
+                        -99.1804712,
+                        19.3728662
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058626,
+                "v": 276058847,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 15.875517427301563,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1806562,
+                        19.3727127
+                    ],
+                    [
+                        -99.1806098,
+                        19.3726941
+                    ],
+                    [
+                        -99.1805593,
+                        19.3726939
+                    ],
+                    [
+                        -99.1805128,
+                        19.3727123
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058626,
+                "v": 276058776,
+                "key": 0,
+                "osmid": "25335802",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 111.30874503491071,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1806562,
+                        19.3727127
+                    ],
+                    [
+                        -99.1807415,
+                        19.3726525
+                    ],
+                    [
+                        -99.1810969,
+                        19.3724956
+                    ],
+                    [
+                        -99.1811746,
+                        19.3724468
+                    ],
+                    [
+                        -99.181251,
+                        19.3723858
+                    ],
+                    [
+                        -99.1813222,
+                        19.3723096
+                    ],
+                    [
+                        -99.1813691,
+                        19.3722413
+                    ],
+                    [
+                        -99.1814013,
+                        19.3721679
+                    ],
+                    [
+                        -99.1814242,
+                        19.3720852
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058627,
+                "v": 276059478,
+                "key": 0,
+                "osmid": "25335831",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Valencia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 86.732842149607052,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1807035,
+                        19.3728526
+                    ],
+                    [
+                        -99.1815016,
+                        19.3730564
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058627,
+                "v": 276058626,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 17.494405087590039,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1807035,
+                        19.3728526
+                    ],
+                    [
+                        -99.1807112,
+                        19.3728139
+                    ],
+                    [
+                        -99.1807052,
+                        19.372775
+                    ],
+                    [
+                        -99.1806862,
+                        19.37274
+                    ],
+                    [
+                        -99.1806562,
+                        19.3727127
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058641,
+                "v": 276058846,
+                "key": 0,
+                "osmid": "25335804",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Cádiz",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 159.64309772939376,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1811834,
+                        19.3705303
+                    ],
+                    [
+                        -99.1807779,
+                        19.3719141
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058641,
+                "v": 276058777,
+                "key": 0,
+                "osmid": "37274500",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Actipan",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 63.081941091814457,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1811834,
+                        19.3705303
+                    ],
+                    [
+                        -99.1817463,
+                        19.3707299
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058776,
+                "v": 276058777,
+                "key": 0,
+                "osmid": "25335802",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 154.44401731318032,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1814242,
+                        19.3720852
+                    ],
+                    [
+                        -99.1817463,
+                        19.3707299
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058776,
+                "v": 276058846,
+                "key": 0,
+                "osmid": "28920838",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 70.415647250127748,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1814242,
+                        19.3720852
+                    ],
+                    [
+                        -99.1807779,
+                        19.3719141
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058777,
+                "v": 276059515,
+                "key": 0,
+                "osmid": "37274500",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Actipan",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 78.298309189029482,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1817463,
+                        19.3707299
+                    ],
+                    [
+                        -99.182445,
+                        19.3709776
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058846,
+                "v": 276058847,
+                "key": 0,
+                "osmid": "25335804",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Cádiz",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 93.010461787228138,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1807779,
+                        19.3719141
+                    ],
+                    [
+                        -99.1805128,
+                        19.3727123
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058846,
+                "v": 275417985,
+                "key": 0,
+                "osmid": "28920838",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 112.78464110290915,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1807779,
+                        19.3719141
+                    ],
+                    [
+                        -99.1806784,
+                        19.3718865
+                    ],
+                    [
+                        -99.17981,
+                        19.3716458
+                    ],
+                    [
+                        -99.1797463,
+                        19.3716283
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276058847,
+                "v": 276058624,
+                "key": 0,
+                "osmid": "25335783",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Glorieta Santander",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 7.0017917598814643,
+                "maxspeed": null,
+                "junction": "roundabout",
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1805128,
+                        19.3727123
+                    ],
+                    [
+                        -99.1804879,
+                        19.3727333
+                    ],
+                    [
+                        -99.1804696,
+                        19.3727596
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059458,
+                "v": 276058624,
+                "key": 0,
+                "osmid": "25335832",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Valencia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 110.39622987944831,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1794602,
+                        19.3724787
+                    ],
+                    [
+                        -99.1795332,
+                        19.372499
+                    ],
+                    [
+                        -99.1804696,
+                        19.3727596
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059458,
+                "v": 275417985,
+                "key": 0,
+                "osmid": [
+                    941873736,
+                    1153004106
+                ],
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 99.208933630075023,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1794602,
+                        19.3724787
+                    ],
+                    [
+                        -99.1796046,
+                        19.3720529
+                    ],
+                    [
+                        -99.179724,
+                        19.3716949
+                    ],
+                    [
+                        -99.1797463,
+                        19.3716283
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059473,
+                "v": 276073868,
+                "key": 0,
+                "osmid": "25335829",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Cádiz Norte",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 63.835836511580084,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.180622,
+                        19.3741076
+                    ],
+                    [
+                        -99.180597,
+                        19.3742295
+                    ],
+                    [
+                        -99.1805009,
+                        19.3746702
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059473,
+                "v": 275417986,
+                "key": 0,
+                "osmid": "555850448",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": false,
+                "ref": "EJE 7 SUR",
+                "reversed": true,
+                "length": 170.06902384252496,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.180622,
+                        19.3741076
+                    ],
+                    [
+                        -99.1795371,
+                        19.3738525
+                    ],
+                    [
+                        -99.1793241,
+                        19.373804
+                    ],
+                    [
+                        -99.1792127,
+                        19.3737776
+                    ],
+                    [
+                        -99.179125,
+                        19.3737568
+                    ],
+                    [
+                        -99.1790486,
+                        19.3737387
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059473,
+                "v": 276059553,
+                "key": 0,
+                "osmid": "852468732",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 62.811621192186252,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.180622,
+                        19.3741076
+                    ],
+                    [
+                        -99.1809579,
+                        19.3741916
+                    ],
+                    [
+                        -99.1812016,
+                        19.3742494
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059478,
+                "v": 276059479,
+                "key": 0,
+                "osmid": "25335831",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Valencia",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 82.095472500377767,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1815016,
+                        19.3730564
+                    ],
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059478,
+                "v": 276059556,
+                "key": 0,
+                "osmid": "360909299",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Málaga",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 109.72529008774546,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1815016,
+                        19.3730564
+                    ],
+                    [
+                        -99.1815366,
+                        19.3729782
+                    ],
+                    [
+                        -99.1815749,
+                        19.3729057
+                    ],
+                    [
+                        -99.1816212,
+                        19.3728422
+                    ],
+                    [
+                        -99.1816672,
+                        19.3727807
+                    ],
+                    [
+                        -99.1819936,
+                        19.3724665
+                    ],
+                    [
+                        -99.182045,
+                        19.3724133
+                    ],
+                    [
+                        -99.1820893,
+                        19.3723476
+                    ],
+                    [
+                        -99.1821227,
+                        19.3722754
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059479,
+                "v": 276059611,
+                "key": 0,
+                "osmid": "25335855",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Jerez",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 142.28714789360507,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ],
+                    [
+                        -99.18187,
+                        19.3744079
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059479,
+                "v": 276059568,
+                "key": 0,
+                "osmid": "466224575",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Jerez",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 91.514081219899737,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ],
+                    [
+                        -99.1825398,
+                        19.3724025
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059479,
+                "v": 276059481,
+                "key": 0,
+                "osmid": "535429370",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cerrada Valencia",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 121.67537933172014,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ],
+                    [
+                        -99.1827625,
+                        19.3731889
+                    ],
+                    [
+                        -99.1830575,
+                        19.3731709
+                    ],
+                    [
+                        -99.1834264,
+                        19.3731134
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059481,
+                "v": 276059479,
+                "key": 0,
+                "osmid": "535429370",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cerrada Valencia",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 121.67537933172015,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1834264,
+                        19.3731134
+                    ],
+                    [
+                        -99.1830575,
+                        19.3731709
+                    ],
+                    [
+                        -99.1827625,
+                        19.3731889
+                    ],
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059515,
+                "v": 276057181,
+                "key": 0,
+                "osmid": [
+                    37274500,
+                    25335589
+                ],
+                "highway": "residential",
+                "lanes": null,
+                "name": [
+                    "Galicia",
+                    "Calle Actipan"
+                ],
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 134.25915487280434,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.182445,
+                        19.3709776
+                    ],
+                    [
+                        -99.182909,
+                        19.371137
+                    ],
+                    [
+                        -99.1829364,
+                        19.3711415
+                    ],
+                    [
+                        -99.1829641,
+                        19.3711386
+                    ],
+                    [
+                        -99.1829898,
+                        19.3711286
+                    ],
+                    [
+                        -99.1830093,
+                        19.3711144
+                    ],
+                    [
+                        -99.1830245,
+                        19.3710962
+                    ],
+                    [
+                        -99.1830345,
+                        19.371075
+                    ],
+                    [
+                        -99.1831061,
+                        19.3707954
+                    ],
+                    [
+                        -99.1831822,
+                        19.3704984
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059553,
+                "v": 276059478,
+                "key": 0,
+                "osmid": "360909299",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Málaga",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 136.33737662947016,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1812016,
+                        19.3742494
+                    ],
+                    [
+                        -99.1815016,
+                        19.3730564
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059553,
+                "v": 276059611,
+                "key": 0,
+                "osmid": "852468732",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 72.295178429460705,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1812016,
+                        19.3742494
+                    ],
+                    [
+                        -99.18187,
+                        19.3744079
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059556,
+                "v": 276058776,
+                "key": 0,
+                "osmid": "28920838",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 76.263607619342935,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821227,
+                        19.3722754
+                    ],
+                    [
+                        -99.1814242,
+                        19.3720852
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059556,
+                "v": 276059515,
+                "key": 0,
+                "osmid": "360909299",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Málaga",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 148.2165589538364,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821227,
+                        19.3722754
+                    ],
+                    [
+                        -99.182445,
+                        19.3709776
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059568,
+                "v": 276059556,
+                "key": 0,
+                "osmid": "28920838",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 45.979518544685327,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1825398,
+                        19.3724025
+                    ],
+                    [
+                        -99.1821227,
+                        19.3722754
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059568,
+                "v": 276059479,
+                "key": 0,
+                "osmid": "466224575",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Jerez",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 91.514081219899737,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1825398,
+                        19.3724025
+                    ],
+                    [
+                        -99.1822721,
+                        19.3731858
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059568,
+                "v": 1496079483,
+                "key": 0,
+                "osmid": "930630980",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 133.9275223665507,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1825398,
+                        19.3724025
+                    ],
+                    [
+                        -99.1826107,
+                        19.3724235
+                    ],
+                    [
+                        -99.1831835,
+                        19.3725732
+                    ],
+                    [
+                        -99.1832081,
+                        19.3725802
+                    ],
+                    [
+                        -99.1832337,
+                        19.3725832
+                    ],
+                    [
+                        -99.1832644,
+                        19.3725814
+                    ],
+                    [
+                        -99.1832941,
+                        19.3725737
+                    ],
+                    [
+                        -99.1833156,
+                        19.3725637
+                    ],
+                    [
+                        -99.183335,
+                        19.3725503
+                    ],
+                    [
+                        -99.1833725,
+                        19.3724934
+                    ],
+                    [
+                        -99.1834307,
+                        19.3723217
+                    ],
+                    [
+                        -99.1834877,
+                        19.3721558
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059611,
+                "v": 276058597,
+                "key": 0,
+                "osmid": "1127320188",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 129.62386691680425,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.18187,
+                        19.3744079
+                    ],
+                    [
+                        -99.1825427,
+                        19.3745675
+                    ],
+                    [
+                        -99.18295,
+                        19.3746641
+                    ],
+                    [
+                        -99.1830684,
+                        19.3746922
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059633,
+                "v": 276058597,
+                "key": 0,
+                "osmid": "28920855",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Augusto Rodin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 49.964009884933155,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1833713,
+                        19.3743459
+                    ],
+                    [
+                        -99.1833201,
+                        19.37441
+                    ],
+                    [
+                        -99.1832252,
+                        19.3745059
+                    ],
+                    [
+                        -99.1830684,
+                        19.3746922
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059647,
+                "v": 11845782181,
+                "key": 0,
+                "osmid": "25335349",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle de Goya",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 23.940006962323238,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1862013,
+                        19.373976
+                    ],
+                    [
+                        -99.1862254,
+                        19.3739847
+                    ],
+                    [
+                        -99.1864136,
+                        19.374055
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059647,
+                "v": 4610800069,
+                "key": 0,
+                "osmid": "28919681",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle de Goya",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 233.08978797488422,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1862013,
+                        19.373976
+                    ],
+                    [
+                        -99.1861653,
+                        19.3739633
+                    ],
+                    [
+                        -99.1841589,
+                        19.3731504
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059720,
+                "v": 276059721,
+                "key": 0,
+                "osmid": "25335867",
+                "highway": "residential",
+                "lanes": "1",
+                "name": "Calle Poussin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 50.983732836988089,
+                "maxspeed": "30",
+                "junction": null,
+                "width": "7",
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1856474,
+                        19.3754005
+                    ],
+                    [
+                        -99.1856788,
+                        19.3752924
+                    ],
+                    [
+                        -99.1857843,
+                        19.3750173
+                    ],
+                    [
+                        -99.1858039,
+                        19.3749667
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059720,
+                "v": 434303477,
+                "key": 0,
+                "osmid": "332814739",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 122.10317326369557,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1856474,
+                        19.3754005
+                    ],
+                    [
+                        -99.1856827,
+                        19.3754102
+                    ],
+                    [
+                        -99.1857499,
+                        19.3754286
+                    ],
+                    [
+                        -99.18658,
+                        19.3756564
+                    ],
+                    [
+                        -99.1866008,
+                        19.3756621
+                    ],
+                    [
+                        -99.1866291,
+                        19.3756699
+                    ],
+                    [
+                        -99.1867651,
+                        19.3757072
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059721,
+                "v": 276059735,
+                "key": 0,
+                "osmid": "25335863",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Donatello",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 122.91116438738818,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1858039,
+                        19.3749667
+                    ],
+                    [
+                        -99.1857765,
+                        19.3749601
+                    ],
+                    [
+                        -99.1846877,
+                        19.3746997
+                    ],
+                    [
+                        -99.1846681,
+                        19.3746951
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059721,
+                "v": 276059647,
+                "key": 0,
+                "osmid": "25335867",
+                "highway": "residential",
+                "lanes": "1",
+                "name": "Calle Poussin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 117.78563089870252,
+                "maxspeed": "30",
+                "junction": null,
+                "width": "7",
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1858039,
+                        19.3749667
+                    ],
+                    [
+                        -99.1858172,
+                        19.3749337
+                    ],
+                    [
+                        -99.1861852,
+                        19.3740187
+                    ],
+                    [
+                        -99.1862013,
+                        19.373976
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059735,
+                "v": 276059633,
+                "key": 0,
+                "osmid": "25335863",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Donatello",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 141.46835514493941,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1846681,
+                        19.3746951
+                    ],
+                    [
+                        -99.1846402,
+                        19.3746888
+                    ],
+                    [
+                        -99.1844097,
+                        19.3746255
+                    ],
+                    [
+                        -99.1839594,
+                        19.3745038
+                    ],
+                    [
+                        -99.1833713,
+                        19.3743459
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059933,
+                "v": 276059735,
+                "key": 0,
+                "osmid": "25335873",
+                "highway": "residential",
+                "lanes": "1",
+                "name": "Jean M. Nattier",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 46.620208104429381,
+                "maxspeed": null,
+                "junction": null,
+                "width": "2.5",
+                "access": "yes",
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1845401,
+                        19.3750966
+                    ],
+                    [
+                        -99.1846591,
+                        19.3747231
+                    ],
+                    [
+                        -99.1846681,
+                        19.3746951
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276059933,
+                "v": 276059720,
+                "key": 0,
+                "osmid": [
+                    1127320192,
+                    25337129
+                ],
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "EJE 7 SUR",
+                "reversed": false,
+                "length": 120.96890265140091,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1845401,
+                        19.3750966
+                    ],
+                    [
+                        -99.1846001,
+                        19.3751131
+                    ],
+                    [
+                        -99.1850091,
+                        19.3752253
+                    ],
+                    [
+                        -99.1855298,
+                        19.3753682
+                    ],
+                    [
+                        -99.1856062,
+                        19.3753892
+                    ],
+                    [
+                        -99.1856474,
+                        19.3754005
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073404,
+                "v": 275417986,
+                "key": 0,
+                "osmid": "1153004105",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Avenida Insurgentes Sur",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 57.215048465015606,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1788854,
+                        19.3742295
+                    ],
+                    [
+                        -99.1790149,
+                        19.3738587
+                    ],
+                    [
+                        -99.1790486,
+                        19.3737387
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073864,
+                "v": 276059720,
+                "key": 0,
+                "osmid": "25335867",
+                "highway": "residential",
+                "lanes": "1",
+                "name": "Calle Poussin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 55.873403671738529,
+                "maxspeed": "30",
+                "junction": null,
+                "width": "7",
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1854696,
+                        19.3758739
+                    ],
+                    [
+                        -99.1854793,
+                        19.375847
+                    ],
+                    [
+                        -99.1856071,
+                        19.3754893
+                    ],
+                    [
+                        -99.1856474,
+                        19.3754005
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073864,
+                "v": 276073865,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 117.37677836614523,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1854696,
+                        19.3758739
+                    ],
+                    [
+                        -99.1854441,
+                        19.3758675
+                    ],
+                    [
+                        -99.1843889,
+                        19.3756002
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073865,
+                "v": 276059933,
+                "key": 0,
+                "osmid": "25335873",
+                "highway": "residential",
+                "lanes": "1",
+                "name": "Jean M. Nattier",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 58.201592026520963,
+                "maxspeed": null,
+                "junction": null,
+                "width": "2.5",
+                "access": "yes",
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1843889,
+                        19.3756002
+                    ],
+                    [
+                        -99.1845076,
+                        19.3752004
+                    ],
+                    [
+                        -99.1845401,
+                        19.3750966
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073865,
+                "v": 276073866,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 166.029636436445,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1843889,
+                        19.3756002
+                    ],
+                    [
+                        -99.1837697,
+                        19.3754649
+                    ],
+                    [
+                        -99.1828505,
+                        19.3752493
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073866,
+                "v": 319150337,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 76.769812476665905,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1828505,
+                        19.3752493
+                    ],
+                    [
+                        -99.182635,
+                        19.3751936
+                    ],
+                    [
+                        -99.1821432,
+                        19.375072
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073867,
+                "v": 276073868,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 60.197508977938618,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1810538,
+                        19.3748152
+                    ],
+                    [
+                        -99.1805009,
+                        19.3746702
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073867,
+                "v": 276059553,
+                "key": 0,
+                "osmid": "360909299",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Málaga",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 64.796714736608962,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1810538,
+                        19.3748152
+                    ],
+                    [
+                        -99.1811821,
+                        19.3743213
+                    ],
+                    [
+                        -99.1812016,
+                        19.3742494
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276073868,
+                "v": 5083805858,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 64.706300422565093,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1805009,
+                        19.3746702
+                    ],
+                    [
+                        -99.1799066,
+                        19.3745143
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 276446403,
+                "v": 276057394,
+                "key": 0,
+                "osmid": [
+                    853427965,
+                    37273822
+                ],
+                "highway": "secondary",
+                "lanes": [
+                    "3",
+                    "2"
+                ],
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 133.21995137978098,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1808704,
+                        19.3681613
+                    ],
+                    [
+                        -99.1809175,
+                        19.3681583
+                    ],
+                    [
+                        -99.1809324,
+                        19.368155
+                    ],
+                    [
+                        -99.1809634,
+                        19.3681481
+                    ],
+                    [
+                        -99.1810466,
+                        19.3681617
+                    ],
+                    [
+                        -99.1811007,
+                        19.3682045
+                    ],
+                    [
+                        -99.1817296,
+                        19.3687028
+                    ],
+                    [
+                        -99.1818835,
+                        19.3688222
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 319150337,
+                "v": 319150370,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 54.730802108049978,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1821432,
+                        19.375072
+                    ],
+                    [
+                        -99.1816398,
+                        19.3749426
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 319150370,
+                "v": 276073867,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 63.081414978975836,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1816398,
+                        19.3749426
+                    ],
+                    [
+                        -99.1810538,
+                        19.3748152
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 326564241,
+                "v": 1397771357,
+                "key": 0,
+                "osmid": "25335751",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Antonio Cánova",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 23.448099659127294,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1840847,
+                        19.3704826
+                    ],
+                    [
+                        -99.1840978,
+                        19.3704535
+                    ],
+                    [
+                        -99.1841733,
+                        19.370289
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 326564241,
+                "v": 326564241,
+                "key": 0,
+                "osmid": "686928524",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Antonio Cánova",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 278.09965005007587,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": "destination",
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1840847,
+                        19.3704826
+                    ],
+                    [
+                        -99.1836234,
+                        19.371544
+                    ],
+                    [
+                        -99.1836178,
+                        19.3715613
+                    ],
+                    [
+                        -99.1836185,
+                        19.3715793
+                    ],
+                    [
+                        -99.1836254,
+                        19.3715962
+                    ],
+                    [
+                        -99.1836376,
+                        19.3716101
+                    ],
+                    [
+                        -99.183654,
+                        19.3716194
+                    ],
+                    [
+                        -99.1836724,
+                        19.3716232
+                    ],
+                    [
+                        -99.1836911,
+                        19.3716213
+                    ],
+                    [
+                        -99.1837082,
+                        19.3716139
+                    ],
+                    [
+                        -99.1837218,
+                        19.3716017
+                    ],
+                    [
+                        -99.1837307,
+                        19.3715861
+                    ],
+                    [
+                        -99.1840777,
+                        19.3707828
+                    ],
+                    [
+                        -99.1841058,
+                        19.3706925
+                    ],
+                    [
+                        -99.1841139,
+                        19.3706041
+                    ],
+                    [
+                        -99.1840847,
+                        19.3704826
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 434303477,
+                "v": 6312059959,
+                "key": 0,
+                "osmid": "852469882",
+                "highway": "primary",
+                "lanes": "5",
+                "name": "Extremadura",
+                "oneway": true,
+                "ref": "Eje 7 Sur",
+                "reversed": false,
+                "length": 85.887545371858351,
+                "maxspeed": "60",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1867651,
+                        19.3757072
+                    ],
+                    [
+                        -99.1868733,
+                        19.3757369
+                    ],
+                    [
+                        -99.1869379,
+                        19.3757546
+                    ],
+                    [
+                        -99.1874177,
+                        19.3758863
+                    ],
+                    [
+                        -99.187481,
+                        19.3759041
+                    ],
+                    [
+                        -99.1875513,
+                        19.3759229
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1171929974,
+                "v": 1171930007,
+                "key": 0,
+                "osmid": "871461733",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Calle Molinos",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 15.784442825975136,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1871798,
+                        19.3725548
+                    ],
+                    [
+                        -99.1872115,
+                        19.372577
+                    ],
+                    [
+                        -99.1872619,
+                        19.3726006
+                    ],
+                    [
+                        -99.1873127,
+                        19.3726198
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1171929974,
+                "v": 276056967,
+                "key": 0,
+                "osmid": "955089993",
+                "highway": "primary",
+                "lanes": "2",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 25.814531100078167,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1871798,
+                        19.3725548
+                    ],
+                    [
+                        -99.1871661,
+                        19.3726198
+                    ],
+                    [
+                        -99.1871666,
+                        19.3726785
+                    ],
+                    [
+                        -99.187177,
+                        19.3727353
+                    ],
+                    [
+                        -99.1871882,
+                        19.3727837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1171930007,
+                "v": 276056967,
+                "key": 0,
+                "osmid": "30089629",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Calle Molinos",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 22.421166240525913,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1873127,
+                        19.3726198
+                    ],
+                    [
+                        -99.1871882,
+                        19.3727837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1171930019,
+                "v": 276057966,
+                "key": 0,
+                "osmid": "25335662",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Cataluña",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 81.583031464226295,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1824459,
+                        19.3692176
+                    ],
+                    [
+                        -99.1821673,
+                        19.3699026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1171930019,
+                "v": 276057182,
+                "key": 0,
+                "osmid": "29684553",
+                "highway": "secondary",
+                "lanes": "2",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 135.11988110882064,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1824459,
+                        19.3692176
+                    ],
+                    [
+                        -99.1835159,
+                        19.3698941
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1397756619,
+                "v": 1171929974,
+                "key": 0,
+                "osmid": "871461736",
+                "highway": "primary",
+                "lanes": "3",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 141.74250945522172,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1863212,
+                        19.3715996
+                    ],
+                    [
+                        -99.1863994,
+                        19.3716494
+                    ],
+                    [
+                        -99.1865793,
+                        19.371777
+                    ],
+                    [
+                        -99.1866718,
+                        19.3718478
+                    ],
+                    [
+                        -99.1867184,
+                        19.3718904
+                    ],
+                    [
+                        -99.1867456,
+                        19.3719187
+                    ],
+                    [
+                        -99.1867711,
+                        19.3719503
+                    ],
+                    [
+                        -99.1867919,
+                        19.3719808
+                    ],
+                    [
+                        -99.1870253,
+                        19.3723822
+                    ],
+                    [
+                        -99.1870739,
+                        19.3724554
+                    ],
+                    [
+                        -99.1871229,
+                        19.3725096
+                    ],
+                    [
+                        -99.1871798,
+                        19.3725548
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1397756624,
+                "v": 11733607117,
+                "key": 0,
+                "osmid": "25335577",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Campana",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 252.2691081026444,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1870371,
+                        19.3726656
+                    ],
+                    [
+                        -99.1863963,
+                        19.3727748
+                    ],
+                    [
+                        -99.1863097,
+                        19.372779
+                    ],
+                    [
+                        -99.1862226,
+                        19.3727663
+                    ],
+                    [
+                        -99.1847154,
+                        19.3723227
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1397756624,
+                "v": 30381324,
+                "key": 0,
+                "osmid": "955089994",
+                "highway": "primary",
+                "lanes": "3",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 52.634771843783881,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1870371,
+                        19.3726656
+                    ],
+                    [
+                        -99.1870915,
+                        19.3728424
+                    ],
+                    [
+                        -99.187127,
+                        19.3729634
+                    ],
+                    [
+                        -99.187167,
+                        19.3731227
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1397771357,
+                "v": 326564241,
+                "key": 0,
+                "osmid": "25335751",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Antonio Cánova",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 23.448099659127294,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1841733,
+                        19.370289
+                    ],
+                    [
+                        -99.1840978,
+                        19.3704535
+                    ],
+                    [
+                        -99.1840847,
+                        19.3704826
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1397771357,
+                "v": 30381321,
+                "key": 0,
+                "osmid": "777619961",
+                "highway": "primary",
+                "lanes": "6",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 253.18350417390809,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1841733,
+                        19.370289
+                    ],
+                    [
+                        -99.1843296,
+                        19.3703872
+                    ],
+                    [
+                        -99.185122,
+                        19.3708931
+                    ],
+                    [
+                        -99.1861739,
+                        19.3715627
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1496079468,
+                "v": 276058578,
+                "key": 0,
+                "osmid": "29020563",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Campana",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 200.31147488990911,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1830177,
+                        19.3712326
+                    ],
+                    [
+                        -99.1833497,
+                        19.3715552
+                    ],
+                    [
+                        -99.1835651,
+                        19.3717968
+                    ],
+                    [
+                        -99.1836296,
+                        19.3718608
+                    ],
+                    [
+                        -99.1838547,
+                        19.3720256
+                    ],
+                    [
+                        -99.1839678,
+                        19.372072
+                    ],
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 1496079483,
+                "v": 276059568,
+                "key": 0,
+                "osmid": "930630980",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Algeciras",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 133.92752236655068,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1834877,
+                        19.3721558
+                    ],
+                    [
+                        -99.1834307,
+                        19.3723217
+                    ],
+                    [
+                        -99.1833725,
+                        19.3724934
+                    ],
+                    [
+                        -99.183335,
+                        19.3725503
+                    ],
+                    [
+                        -99.1833156,
+                        19.3725637
+                    ],
+                    [
+                        -99.1832941,
+                        19.3725737
+                    ],
+                    [
+                        -99.1832644,
+                        19.3725814
+                    ],
+                    [
+                        -99.1832337,
+                        19.3725832
+                    ],
+                    [
+                        -99.1832081,
+                        19.3725802
+                    ],
+                    [
+                        -99.1831835,
+                        19.3725732
+                    ],
+                    [
+                        -99.1826107,
+                        19.3724235
+                    ],
+                    [
+                        -99.1825398,
+                        19.3724025
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 4610800069,
+                "v": 276059633,
+                "key": 0,
+                "osmid": "28920855",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Augusto Rodin",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 160.37526015219487,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1841589,
+                        19.3731504
+                    ],
+                    [
+                        -99.1841323,
+                        19.3731388
+                    ],
+                    [
+                        -99.1838651,
+                        19.3737018
+                    ],
+                    [
+                        -99.1838432,
+                        19.3737485
+                    ],
+                    [
+                        -99.1838188,
+                        19.3737942
+                    ],
+                    [
+                        -99.183788,
+                        19.3738453
+                    ],
+                    [
+                        -99.1837542,
+                        19.3738946
+                    ],
+                    [
+                        -99.1835203,
+                        19.3741703
+                    ],
+                    [
+                        -99.1833713,
+                        19.3743459
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 4610800069,
+                "v": 276058578,
+                "key": 0,
+                "osmid": [
+                    865401080,
+                    25335776
+                ],
+                "highway": [
+                    "living_street",
+                    "residential"
+                ],
+                "lanes": null,
+                "name": "Calle Augusto Rodin",
+                "oneway": false,
+                "ref": null,
+                "reversed": true,
+                "length": 103.31487567762349,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1841589,
+                        19.3731504
+                    ],
+                    [
+                        -99.1841533,
+                        19.3730741
+                    ],
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 5083805858,
+                "v": 276073404,
+                "key": 0,
+                "osmid": "25337056",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle Empresa",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 111.71688367725325,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1799066,
+                        19.3745143
+                    ],
+                    [
+                        -99.1794004,
+                        19.3743731
+                    ],
+                    [
+                        -99.1789463,
+                        19.37425
+                    ],
+                    [
+                        -99.1788854,
+                        19.3742295
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 6298545890,
+                "v": 1397771357,
+                "key": 0,
+                "osmid": "777619961",
+                "highway": "primary",
+                "lanes": "6",
+                "name": "Avenida Río Mixcoac",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 57.832637699863213,
+                "maxspeed": "40",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1837205,
+                        19.3699923
+                    ],
+                    [
+                        -99.1841733,
+                        19.370289
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 6312059959,
+                "v": 276056967,
+                "key": 0,
+                "osmid": "37273819",
+                "highway": "secondary",
+                "lanes": "2",
+                "name": "Avenida Revolución",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 404.28921439452176,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1875513,
+                        19.3759229
+                    ],
+                    [
+                        -99.1875735,
+                        19.3757433
+                    ],
+                    [
+                        -99.1876001,
+                        19.3755297
+                    ],
+                    [
+                        -99.1876905,
+                        19.3746787
+                    ],
+                    [
+                        -99.1877008,
+                        19.3745819
+                    ],
+                    [
+                        -99.1877152,
+                        19.3744478
+                    ],
+                    [
+                        -99.1878171,
+                        19.3734949
+                    ],
+                    [
+                        -99.1878212,
+                        19.3732952
+                    ],
+                    [
+                        -99.1878198,
+                        19.3731927
+                    ],
+                    [
+                        -99.1878131,
+                        19.3731269
+                    ],
+                    [
+                        -99.1878051,
+                        19.3730788
+                    ],
+                    [
+                        -99.1877944,
+                        19.3730307
+                    ],
+                    [
+                        -99.1877807,
+                        19.3729867
+                    ],
+                    [
+                        -99.1877649,
+                        19.3729473
+                    ],
+                    [
+                        -99.1877461,
+                        19.372908
+                    ],
+                    [
+                        -99.1877233,
+                        19.3728726
+                    ],
+                    [
+                        -99.1876965,
+                        19.3728384
+                    ],
+                    [
+                        -99.1876722,
+                        19.3728152
+                    ],
+                    [
+                        -99.1876428,
+                        19.3727954
+                    ],
+                    [
+                        -99.1876072,
+                        19.3727752
+                    ],
+                    [
+                        -99.1875704,
+                        19.3727612
+                    ],
+                    [
+                        -99.1875385,
+                        19.3727524
+                    ],
+                    [
+                        -99.1874899,
+                        19.3727435
+                    ],
+                    [
+                        -99.1874524,
+                        19.3727398
+                    ],
+                    [
+                        -99.1874001,
+                        19.3727372
+                    ],
+                    [
+                        -99.1873545,
+                        19.3727372
+                    ],
+                    [
+                        -99.1872911,
+                        19.3727477
+                    ],
+                    [
+                        -99.1872419,
+                        19.3727636
+                    ],
+                    [
+                        -99.1871882,
+                        19.3727837
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 7808850008,
+                "v": 6298545890,
+                "key": 0,
+                "osmid": [
+                    672598827,
+                    672598823
+                ],
+                "highway": "motorway",
+                "lanes": "3",
+                "name": "Circuito Interior",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 358.72043287113883,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1810379,
+                        19.3680016
+                    ],
+                    [
+                        -99.1811865,
+                        19.368101
+                    ],
+                    [
+                        -99.1813192,
+                        19.3681973
+                    ],
+                    [
+                        -99.1819188,
+                        19.3686936
+                    ],
+                    [
+                        -99.1821943,
+                        19.3688985
+                    ],
+                    [
+                        -99.1826058,
+                        19.3691811
+                    ],
+                    [
+                        -99.1835432,
+                        19.3698099
+                    ],
+                    [
+                        -99.1837205,
+                        19.3699923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11733607117,
+                "v": 276058578,
+                "key": 0,
+                "osmid": "29020563",
+                "highway": "living_street",
+                "lanes": null,
+                "name": "Calle Campana",
+                "oneway": false,
+                "ref": null,
+                "reversed": false,
+                "length": 21.152728566973067,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1847154,
+                        19.3723227
+                    ],
+                    [
+                        -99.1847027,
+                        19.3723204
+                    ],
+                    [
+                        -99.1845162,
+                        19.3722932
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11845765367,
+                "v": 12606009195,
+                "key": 0,
+                "osmid": "1275878634",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 14.163814261947637,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1864901,
+                        19.3740269
+                    ],
+                    [
+                        -99.1864719,
+                        19.3740537
+                    ],
+                    [
+                        -99.1864578,
+                        19.3740826
+                    ],
+                    [
+                        -99.186448,
+                        19.3741131
+                    ],
+                    [
+                        -99.186445,
+                        19.3741319
+                    ],
+                    [
+                        -99.1864429,
+                        19.3741446
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11845765367,
+                "v": 11845782181,
+                "key": 0,
+                "osmid": "1361605691",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 8.7217923908248345,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1864901,
+                        19.3740269
+                    ],
+                    [
+                        -99.1864716,
+                        19.3740372
+                    ],
+                    [
+                        -99.1864536,
+                        19.3740464
+                    ],
+                    [
+                        -99.186434,
+                        19.3740524
+                    ],
+                    [
+                        -99.1864136,
+                        19.374055
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11845782181,
+                "v": 12606009195,
+                "key": 0,
+                "osmid": "25335349",
+                "highway": "residential",
+                "lanes": null,
+                "name": "Calle de Goya",
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 10.94269370510218,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1864136,
+                        19.374055
+                    ],
+                    [
+                        -99.1864282,
+                        19.3740738
+                    ],
+                    [
+                        -99.1864395,
+                        19.3740944
+                    ],
+                    [
+                        -99.186448,
+                        19.3741194
+                    ],
+                    [
+                        -99.1864429,
+                        19.3741446
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11845782193,
+                "v": 12758660867,
+                "key": 0,
+                "osmid": "1275878634",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 17.811539049095042,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1868585,
+                        19.3743245
+                    ],
+                    [
+                        -99.1868906,
+                        19.3742863
+                    ],
+                    [
+                        -99.1869134,
+                        19.3742426
+                    ],
+                    [
+                        -99.1869259,
+                        19.3741953
+                    ],
+                    [
+                        -99.1869275,
+                        19.3741814
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 11845782193,
+                "v": 12606009166,
+                "key": 0,
+                "osmid": "1361605689",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 25.120470065663255,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1868585,
+                        19.3743245
+                    ],
+                    [
+                        -99.1868745,
+                        19.3743125
+                    ],
+                    [
+                        -99.1868944,
+                        19.3743073
+                    ],
+                    [
+                        -99.1869145,
+                        19.3743082
+                    ],
+                    [
+                        -99.1869354,
+                        19.3743117
+                    ],
+                    [
+                        -99.1869843,
+                        19.3743171
+                    ],
+                    [
+                        -99.1870916,
+                        19.3743269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 12606009166,
+                "v": 30381328,
+                "key": 0,
+                "osmid": "820355198",
+                "highway": "primary",
+                "lanes": "4",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 106.54463046876448,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1870916,
+                        19.3743269
+                    ],
+                    [
+                        -99.187091,
+                        19.37434
+                    ],
+                    [
+                        -99.1870979,
+                        19.3744534
+                    ],
+                    [
+                        -99.1870792,
+                        19.3746254
+                    ],
+                    [
+                        -99.1870377,
+                        19.374829
+                    ],
+                    [
+                        -99.1869121,
+                        19.37521
+                    ],
+                    [
+                        -99.1869016,
+                        19.3752613
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 12606009195,
+                "v": 11845782193,
+                "key": 0,
+                "osmid": "1275878634",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 62.367116477251415,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1864429,
+                        19.3741446
+                    ],
+                    [
+                        -99.186443,
+                        19.3741846
+                    ],
+                    [
+                        -99.1864506,
+                        19.3742241
+                    ],
+                    [
+                        -99.1864653,
+                        19.3742617
+                    ],
+                    [
+                        -99.1864867,
+                        19.3742963
+                    ],
+                    [
+                        -99.1865141,
+                        19.3743268
+                    ],
+                    [
+                        -99.1865468,
+                        19.3743524
+                    ],
+                    [
+                        -99.1865837,
+                        19.3743722
+                    ],
+                    [
+                        -99.1866237,
+                        19.3743857
+                    ],
+                    [
+                        -99.1866656,
+                        19.3743924
+                    ],
+                    [
+                        -99.1867081,
+                        19.3743921
+                    ],
+                    [
+                        -99.1867498,
+                        19.3743849
+                    ],
+                    [
+                        -99.1867896,
+                        19.3743709
+                    ],
+                    [
+                        -99.1868262,
+                        19.3743505
+                    ],
+                    [
+                        -99.1868585,
+                        19.3743245
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 12758660867,
+                "v": 11845765367,
+                "key": 0,
+                "osmid": "1275878634",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 65.648578140129558,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1869275,
+                        19.3741814
+                    ],
+                    [
+                        -99.1869275,
+                        19.3741466
+                    ],
+                    [
+                        -99.1869182,
+                        19.3740987
+                    ],
+                    [
+                        -99.1868984,
+                        19.3740537
+                    ],
+                    [
+                        -99.1868709,
+                        19.3740159
+                    ],
+                    [
+                        -99.1868361,
+                        19.373984
+                    ],
+                    [
+                        -99.1867952,
+                        19.3739593
+                    ],
+                    [
+                        -99.1867499,
+                        19.3739428
+                    ],
+                    [
+                        -99.186702,
+                        19.373935
+                    ],
+                    [
+                        -99.1866534,
+                        19.3739364
+                    ],
+                    [
+                        -99.1866062,
+                        19.3739469
+                    ],
+                    [
+                        -99.186562,
+                        19.3739661
+                    ],
+                    [
+                        -99.1865228,
+                        19.3739931
+                    ],
+                    [
+                        -99.1864901,
+                        19.3740269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 12758660868,
+                "v": 12606009166,
+                "key": 0,
+                "osmid": "820355198",
+                "highway": "primary",
+                "lanes": "4",
+                "name": "Avenida Patriotismo",
+                "oneway": true,
+                "ref": "CTO INT",
+                "reversed": false,
+                "length": 15.42128863883128,
+                "maxspeed": "50",
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1870968,
+                        19.3741883
+                    ],
+                    [
+                        -99.1870916,
+                        19.3743269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "u": 12758660868,
+                "v": 12758660867,
+                "key": 0,
+                "osmid": "1377932554",
+                "highway": "residential",
+                "lanes": null,
+                "name": null,
+                "oneway": true,
+                "ref": null,
+                "reversed": false,
+                "length": 17.801366281773923,
+                "maxspeed": null,
+                "junction": null,
+                "width": null,
+                "access": null,
+                "tunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.1870968,
+                        19.3741883
+                    ],
+                    [
+                        -99.1869866,
+                        19.3741879
+                    ],
+                    [
+                        -99.1869275,
+                        19.3741814
+                    ]
+                ]
+            }
+        }
+    ]
+}
