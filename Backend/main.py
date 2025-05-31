@@ -153,8 +153,6 @@ def obtener_incidentes():
     cursor.close()
     conn.close()
 
-#{'id_reporte': 1, 'id_seccion': 144, 'fecha': datetime.datetime(2025, 5, 21, 11, 11), 'tipo': 'Extorsion', 'reporte': 'Bruno'}
-
     calles = []
     DatosGenerales = []
 
@@ -183,5 +181,7 @@ def obtener_incidentes():
         }
         ReportesXCalle.append(Calle)
 
-    return JSONResponse(ReportesXCalle)
+    return ReportesXCalle
 
+def calcularProbabilidad():
+    pass
