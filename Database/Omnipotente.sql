@@ -30,8 +30,8 @@ CREATE TABLE reportes(
 );
 
 
-drop database omnipotente;
-drop table reportes;
+-- drop database omnipotente;
+-- drop table reportes;
 select id_seccion as id , tipo , count(tipo) as reportes from reportes  group by id_seccion,tipo having reportes >= 3;
 
 SELECT 
@@ -49,4 +49,4 @@ LEFT JOIN reportes AS rep
 GROUP BY sec.id_seccion
 HAVING reportes > 3;
 
- #cursor.execute("SELECT sec.id_seccion, sec.coord_inicio_x, sec.coord_inicio_y, sec.coord_fin_x, sec.coord_fin_y, sec.nombre_calle, rep.tipo, COUNT(rep.tipo) AS reportes FROM seccion AS sec LEFT JOIN reportes AS rep ON sec.id_seccion = rep.id_seccion GROUP BY sec.id_seccion, rep.tipo;")
+ -- #cursor.execute("SELECT sec.id_seccion, sec.coord_inicio_x, sec.coord_inicio_y, sec.coord_fin_x, sec.coord_fin_y, sec.nombre_calle, rep.tipo, COUNT(rep.tipo) AS reportes FROM seccion AS sec LEFT JOIN reportes AS rep ON sec.id_seccion = rep.id_seccion GROUP BY sec.id_seccion, rep.tipo;")

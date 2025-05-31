@@ -1,5 +1,3 @@
-from fastapi import FastAPI
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware  
 import mysql.connector
 from dotenv import load_dotenv
@@ -7,6 +5,9 @@ import os
 from fastapi import FastAPI, Form
 from fastapi.responses import JSONResponse
 from fastapi.responses import RedirectResponse
+from sklearn.linear_model import LogisticRegression
+import numpy as np 
+from collections import Counter
 
 load_dotenv()
 
@@ -90,7 +91,7 @@ def guardar_reporte(
     cursor.close()
 
     #return JSONResponse(content={"mensaje": "Reporte guardado correctamente"})
-    return RedirectResponse(url="http://127.0.0.1:3001/Frontend/index.html", status_code=303)
+    return RedirectResponse(url="http://127.0.0.1:3000/Frontend/index.html", status_code=303)
 
 
 @app.get("/geojson/secciones/especiales")
@@ -134,3 +135,53 @@ def obtener_geojson():
         "features": features
     }
     return JSONResponse(content=geojson)
+
+@app.get("/incidentes")
+def obtener_incidentes():
+    conn = mysql.connector.connect(
+        host=os.getenv("DB_HOST"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        database=os.getenv("DB_NAME"),
+        port=int(os.getenv("DB_PORT"))
+    )
+
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT rep.id_reporte, rep.id_seccion, rep.fecha, rep.tipo, rep.reporte FROM reportes AS rep;")
+
+    datos = cursor.fetchall()
+    cursor.close()
+    conn.close()
+
+#{'id_reporte': 1, 'id_seccion': 144, 'fecha': datetime.datetime(2025, 5, 21, 11, 11), 'tipo': 'Extorsion', 'reporte': 'Bruno'}
+
+    calles = []
+    DatosGenerales = []
+
+    for i in datos:
+        properties = {
+            "section": i['id_seccion'],
+            "fecha": {
+                'yr': i['fecha'].year,
+                'mes': i['fecha'].month,
+                'dia': i['fecha'].day,
+                'hora': i['fecha'].hour,
+                'minuto': i['fecha'].minute
+            }
+        }
+        calles.append(i['id_seccion'])
+        DatosGenerales.append(properties)
+
+    CantCalles = Counter(calles)
+    calles = list(set(calles))
+    ReportesXCalle = []
+    for i in calles:
+        Calle = {
+            "calle": i,
+            "horas": [x["fecha"]["hora"] for x in DatosGenerales if x["section"] == i],
+            "reportes": CantCalles[i]
+        }
+        ReportesXCalle.append(Calle)
+
+    return JSONResponse(ReportesXCalle)
+
